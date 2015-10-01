@@ -1,5 +1,7 @@
 class MoviesController < ApplicationController
 
+  # See Section 4.5: Strong Parameters below for an explanation of this method:
+  # http://guides.rubyonrails.org/action_controller_overview.html
   def movie_params
     params.require(:movie).permit(:title, :rating, :description, :release_date)
   end
@@ -42,4 +44,6 @@ class MoviesController < ApplicationController
     redirect_to movies_path
   end
 
+  private :movie_params
+  
 end
