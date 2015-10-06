@@ -1,3 +1,3 @@
 == README
 
-The instructions for this assignment are in the Wiki. There should be a link on the right side of the GitHub repo page.
+The instructions for this assignment are in the Wiki. There should be a link on the right side of the GitHub repo page. Please note that submission instructions and point values for your class may differ from what is listed here.
